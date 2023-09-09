@@ -18,8 +18,8 @@ def get_info(request):
         "current_day": current_day,
         "utc_time": timezone.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
         "track": track,
-        "github_file_url": "https://github.com/wisdomoo/0x01-hngx_track_backend/blob/master/api/views.py",
-        "github_repo_url": "https://github.com/wisdomoo/0x01-hngx_track_backend",
+        "github_file_url": "https://github.com/Monemax94/0x01-hng_track_backend/blob/main/api/views.py",
+        "github_repo_url": "https://github.com/Monemax94/0x01-hng_track_backend/tree/main",
         "status_code": 200
     }
 
