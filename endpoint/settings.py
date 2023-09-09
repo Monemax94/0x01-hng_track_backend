@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-##81^!9-qm7z5vg_rslhdvo0l@rp%r_^5ti!l+5@h%u)bnipk1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['monemax-api.onrender.com']
 
 
 # Application definition
